@@ -1,0 +1,1 @@
+-- INSERT INTO tb_client (name, cpf, income, birthDate, children) VALUES('Gustavo Wendel da Silva Borges', '98765432101', 4.890, TIMESTAMP WITH TIME ZONE '1994-07-20T10:30:00Z', 1);
