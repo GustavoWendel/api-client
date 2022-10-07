@@ -24,6 +24,7 @@ public class ClientDTO implements Serializable {
     private String name;
     private String cpf;
 
+    private Double income;
     private Instant birthDate;
     private Integer children;
 
@@ -31,6 +32,7 @@ public class ClientDTO implements Serializable {
         this.id = entity.getId();
         this.name = entity.getName();
         this.cpf = entity.getCpf();
+        this.income = entity.getIncome();
         this.birthDate = entity.getBirthDate();
         this.children = entity.getChildren();
     }
